@@ -1,6 +1,8 @@
 package android.itesm.edu.pokemon.model;
 
-public class PokeCard {
+import java.io.Serializable;
+//Si mandamos un objeto con varios atributos a otra pantalla ponemos serializable
+public class PokeCard implements Serializable {
 
     private String id, name, imageUrl, artist;
 
